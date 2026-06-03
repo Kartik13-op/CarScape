@@ -1,0 +1,57 @@
+CAR-SCAPE - A Simple Endless Escape Game
+----------------------------------------
+
+ABOUT THE GAME:
+Car-scape is a light, endless driving game where your only goal is to escape from the police and survive as long as possible. The terrain is procedurally generated, and the chase gets intense after 10 seconds.
+
+The game is built in Python using the Ursina Engine and has simple, soft visuals with smooth car movement.
+
+CONTROLS:
+- Hold your mouse like a horizontal gamepad.
+- Use the scroll wheel as your steering:
+  - Scroll Up   = Steer Left
+  - Scroll Down = Steer Right
+- The car moves forward automatically.
+- Avoid obstacles and survive!
+- Police spawn after 10 seconds and start chasing you.
+- Time survived is shown at the top-left of the screen.
+- Close the window to quit the game.
+
+RUNNING THE GAME:
+To play the game using the Car-Scape.pyc file, follow these steps:
+
+1. Make sure Python 3.9+ is installed on your computer.
+   You can get Python from: https://www.python.org/downloads/
+
+2. Open Command Prompt and install the required game engine:
+   pip install ursina
+
+3. Keep the "Car-Scape.pyc" file and the "assets" folder (if provided) in the same directory.
+
+4. Open Command Prompt in that folder.
+   - You can Shift+Right Click inside the folder and select:
+     "Open PowerShell window here" or "Open Command Window here"
+
+5. Run the game using:
+   python Car-Scape.pyc
+
+   If that doesn't work, try:
+   python -X importtime Car-Scape.pyc
+
+IMPORTANT NOTES:
+- Do not rename or move the assets folder (models, sounds, etc.)
+- Make sure all files are in the same folder.
+- Time is shown but not saved after quitting.
+- Restart the game to try again.
+
+FEATURES:
+- Scroll-wheel based car control like a gamepad
+- Police chase starts after 10 seconds
+- Procedural terrain generation
+- Minimal and clean graphics
+- Soothing background music
+- Easy to play, no keyboard needed
+
+CREDITS:
+Game by [Your Name or Alias]
+Built using Ursina Game Engine and Python
